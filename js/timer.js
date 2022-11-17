@@ -1,4 +1,8 @@
+import Sound from "./sounds.js"
+
 export default function Timer({buttonMinutes, buttonSeconds}){
+  const sound = Sound();
+
   let timerOut;
   let minutes = Number(buttonMinutes.textContent);
 
@@ -9,11 +13,12 @@ export default function Timer({buttonMinutes, buttonSeconds}){
       let isFinishid = minutes <= 0 && seconds <= 0;
   
       if(isFinishid){
-        updateDisplay()
+        updateDisplay();
+        sound.soundAlarme.play();
         return
       }
       if(seconds <= 0){
-        seconds = 10;
+        seconds = 60;
         --minutes
       }
       
