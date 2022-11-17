@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  
+  <title>Focus-Timer Dark</title>
+</head>
+<body class="body">
+  <aside>
+    <button class="theme">
+      <img class="sun" src="./assets/icon-sun.svg" alt="sun icon">
+      <img class="moon hide" src="./assets/icon-moon.svg" alt="moon icon">
+    </button>
+  </aside>
+
+  <main>
+
+    <section class="box-one">
+      <div class="timer">
+        <span class="minutes">05</span>
+        <span class="dots">:</span>
+        <span class="seconds">00</span>
+      </div>
+
+      <div class="controler">
+
+        <button class="play">
+          <img src="./assets/icon-play.svg" alt="play icon">
+        </button>
+
+        <button class="stop" >
+          <img src="./assets/icon-stop.svg" alt="stop icon">
+        </button>
+
+        <button class="pluss">
+          <img src="./assets/icon-pluss.svg" alt="pluss icon">
+        </button>
+
+        <button class="less">
+          <img src="./assets/icon-less.svg" alt="less icon">
+        </button>
+
+      </div>
+    </section>
+
+    <section class="box-two">
+      <button class="cards forest">
+        <img class="treeBlack" src="./assets/tree-black.svg" alt="tree icon">
+        <img class="treeWhite hide" src="./assets/tree-white.svg" alt="white tree icon" srcset="">
+        <input class="volumeForest" type="range" min="0" max="100">
+      </button>
+      
+      <button class="cards rain">
+        <img class="rainBlack" src="./assets/rain-black.svg" alt="rain icon">
+        <img class="rainWhite hide" src="./assets/rain-white.svg" alt="white shop icon">
+        <input class="volumeRain" type="range" min="0" max="100">
+      </button>
+
+      <button class="cards shop">
+        <img class="shopBlack" src="./assets/shop-black.svg" alt="shop icon">
+        <img class="shopWhite hide" src="./assets/shop-white.svg" alt="white icon shop" srcset="">
+        <input class="volumeShop" type="range" min="0" max="100">
+      </button>
+
+      <button class="cards fire">
+        <img class="fireBlack" src="./assets/fire-black.svg" alt="fire icon">
+        <img class="fireWhite hide" src="./assets/fire-white.svg" alt="">
+        <input class="volumeFire" type="range" min="0" max="100">
+      </button>
+    </section>
+  </main>
+
+  <script src="./js/main.js" type="module"></script>
+</body>
+</html>
