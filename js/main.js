@@ -10,6 +10,7 @@ const buttonLess = document.querySelector('.less');
 
 const buttonAllCards = document.querySelectorAll('.cards');
 const allInput = document.querySelectorAll('input');
+const allInput2 = document.querySelectorAll('input::-webkit-slider-thumb');
 const allSpan = document.querySelectorAll('span');
 const buttonMoon = document.querySelector('.moon');
 const buttonTheme = document.querySelector('.theme')
