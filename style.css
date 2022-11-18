@@ -95,15 +95,13 @@ input {
   height: .5rem;
   margin-top: 2rem;
   
-  -webkit-appearance: none;
+  -webkit-appearance: none!important;
   background: var(--bg-input);
   outline: none;
   border-radius: 9px;   
 }
 
-input::-moz-range-thumb,
-input[type=range]::-webkit-slider-thumb {
-  -webkit-appearance: none !important;
+input::-moz-range-thumb {
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 50%; 
