@@ -101,7 +101,7 @@ input {
   border-radius: 9px;   
 }
 
-input[type=range]::-webkit-slider-thumb {
+input::-webkit-slider-thumb {
   -webkit-appearance: none;
   width: 1.5rem;
   height: 1.5rem;
