@@ -176,4 +176,8 @@ function darkMode(){
   for(let input of allInput){
     input.classList.toggle('inputDark')
   }
+
+  for(let input of allInput2){
+    input.classList.toggle('inputDark')
+  }
 }
