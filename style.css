@@ -142,7 +142,7 @@ input::-moz-range-thumb {
   background: var(--bg-card-dark);
 }
 
-.inputDark, .inputDark::-moz-range-thumb {
+.inputDark {
   background: var(--bg-input-dark);
 }
 
