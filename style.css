@@ -103,6 +103,12 @@ input {
 
 input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%; 
+  border: none;
+  background: var(--bg-input);
+  cursor: pointer;
 }
 
 input::-moz-range-thumb {
